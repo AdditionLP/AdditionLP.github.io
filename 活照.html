@@ -15,7 +15,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: Wheat ;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -26,8 +26,8 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  height: auto; /* only for demonstration, should be removed */
+  background: white;
   padding: 20px;
 }
 
@@ -41,8 +41,8 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: pink;
+  height: auto; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -90,13 +90,14 @@ footer {
   
   <article>
     <h1>生活照片</h1>
-    <img src="live.png" alt="生活照片" width="250" height="150">
+    <img src="live.png" alt="生活照片" width="50%" height="auto">
+    <img src="live2.png" alt="生活照片2" width="50%" height="auto" float:right>
     <p>Game is life</p>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>BY @ADDITIONLP</p>
 </footer>
 
 </body>
